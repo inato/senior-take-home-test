@@ -12,7 +12,7 @@ A trial is _ongoing_ if:
 - its end date is in the future
 - it has not been canceled
 
-Example payload for sponsor "Sanofi":
+Here is the payload you should obtain when querying ongoing clinical trials for the sponsor "Sanofi":
 
 ```json
 [
@@ -31,13 +31,11 @@ Example payload for sponsor "Sanofi":
 ]
 ```
 
-You are free to use another format than JSON if you want.
-
 ## Step 2: CLI
 
-We now are going to build a CLI application that allows to query the list of ongoing clinical trials for a given country code. We already have access to a [file](countries.json) that maps country codes to country names.
+We now are going to build a CLI application that allows to query the list of ongoing clinical trials for a given country code. We already have access to a [file](countries.json) that maps country codes to country names. We should leverage what we have built in the previous step.
 
-Example output for country code "FR":
+Here is the output you should get for the country code "FR":
 
 ```txt
 Olaparib + Sapacitabine in BRCA Mutant Breast Cancer, France
