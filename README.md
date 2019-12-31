@@ -33,9 +33,9 @@ Here is the payload you should obtain when querying ongoing clinical trials for 
 
 Example stack: http server exposing REST endpoint that delivery json payloads. Feel free to use something you are more comfortable with, like GraphQL, if you want to.
 
-## Step 2: CLI
+## Step 2: Command-line interface
 
-We now are going to build for our customer success team a CLI application that allows to query the list of ongoing clinical trials for a given country code. We already have access to a [file](countries.json) that maps country codes to country names. We will leverage what we have built in the previous step, sharing code when necessary.
+We now are going to build for our customer success team a command-line interface that allows to query the list of ongoing clinical trials for a given country code. We already have access to a [file](countries.json) that maps country codes to country names. We will leverage what we have built in the previous step, sharing code when necessary.
 
 Here is the output you should get for the country code "FR":
 
