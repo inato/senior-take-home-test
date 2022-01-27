@@ -55,7 +55,7 @@ Topical Calcipotriene Treatment for Breast Cancer Immunoprevention, France
 
 This assignment is limited in scope and could be solved by writing all the code in a single file. Still, we want you to architect your tests and your code as if you were building the first parts of a larger-scale software. Imagine that a lot of features are going to be added in the future, by other engineers. Focus on maintainability and extensibility, even though it might feel like over-engineering.
 
-You are allowed to use the technologies of your choice, but if you are looking for inspiration use [ours](https://stackshare.io/inato/inato-app). You are encouraged to make good use of open-source code.
+You are allowed to use the technologies of your choice, but if you are looking for inspiration use [ours](https://stackshare.io/inato/marketplace). You are encouraged to make good use of open-source code.
 
 ## Out of scope
 
