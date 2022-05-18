@@ -1,10 +1,10 @@
 # Context
 
-You are building new products at Inato, and after several discussions with the product team, you agreed upon the following milestones.
+As a product engineer in the team, you suggested to build an internal tool for our customer success team. You agreed with the product team on the following milestones.
 
 ## Step 1: Web API
 
-In order to display them in our existing web application, we need to query the list of ongoing clinical trials for a given sponsor. We already have access to a third-party API (represented by [this file](trials.json)) listing all clinical trials, and we are going to build a wrapper around it.
+We first need to be able to query the list of ongoing clinical trials for a given sponsor. We already have access to a third-party API (represented by [this file](trials.json)) listing all clinical trials, and we are going to build a wrapper around it.
 
 A trial is _ongoing_ if:
 
@@ -31,11 +31,11 @@ Here is the payload you should obtain when querying ongoing clinical trials for 
 ]
 ```
 
-Example stack: http server exposing REST endpoint that delivery json payloads. Feel free to use something you are more comfortable with, like GraphQL, if you want to.
+Example stack: http server exposing REST endpoint that serves json payloads. Feel free to use something you are more comfortable with, like GraphQL, if you want to.
 
 ## Step 2: Command-line interface
 
-We now are going to build for our customer success team a command-line interface that allows to query the list of ongoing clinical trials for a given country code. We already have access to a [file](countries.json) that maps country codes to country names. We will leverage what we have built in the previous step, sharing code when necessary.
+We will then build for our customer success team a command-line interface that displays the list of ongoing clinical trials for a given country code. We already have access to a [file](countries.json) that maps country codes to country names. We will leverage what we have already built in the previous step.
 
 Here is the output you should get for the country code "FR":
 
@@ -60,4 +60,5 @@ You are allowed to use the technologies of your choice, but if you are looking f
 ## Out of scope
 
 - Usage of third party tools, like a CI service
-- Performance considerations
+- Performance
+- Security
