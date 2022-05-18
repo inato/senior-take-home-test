@@ -35,7 +35,7 @@ Example stack: http server exposing REST endpoint that serves json payloads. Fee
 
 ## Step 2: Command-line interface
 
-We will then build a command-line interface that displays the list of ongoing clinical trials for a given country code. It will be deployed on the computers of customer success team. We already have access to a [file](countries.json) that maps country codes to country names. We will leverage what we have already built in the previous step.
+We will then build a command-line interface that displays the list of ongoing clinical trials for a given country code. It will be deployed on the computers of the customer success team. README.mdWe already have access to a [file](countries.json) that maps country codes to country names. We will leverage what we have already built in the previous step.
 
 Here is the output you should get for the country code "FR":
 
