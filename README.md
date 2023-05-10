@@ -1,6 +1,6 @@
 # Context
 
-As a product engineer in the team, you suggested to build an internal tool for our customer success team. You agreed with the product team on the following milestones.
+As a senior product engineer in the team, you suggested to build an internal tool for our customer success team. You agreed with the product team on the following milestones.
 
 ## Step 1: Web API
 
@@ -25,13 +25,13 @@ Here is the payload you should obtain when querying ongoing clinical trials for 
   {
     "name": "Topical Calcipotriene Treatment for Breast Cancer Immunoprevention",
     "start_date": "2018-03-20",
-    "end_date": "2022-09-10",
+    "end_date": "2032-09-10",
     "sponsor": "Sanofi"
   }
 ]
 ```
 
-Example stack: http server exposing REST endpoint that serves json payloads. Feel free to use something you are more comfortable with, like GraphQL, if you want to.
+Example stack: http server exposing REST endpoint that serves json payloads.
 
 ## Step 2: Command-line interface
 
@@ -53,12 +53,15 @@ Topical Calcipotriene Treatment for Breast Cancer Immunoprevention, France
 
 ## Guidelines
 
-This assignment is limited in scope and could be solved by writing all the code in a single file. Still, we want you to architect your tests and your code as if you were building the first parts of a larger-scale software. Imagine that a lot of features are going to be added in the future, by other engineers. Focus on maintainability and extensibility, even though it might feel like over-engineering.
+This assignment is limited in scope and could be solved by writing all the code in a single file. Still, we want you to architect your tests and your code as if you were building the first parts of a larger-scale software. Imagine that a lot of features are going to be added in the future, by other engineers. Focus on maintainability and extensibility, even though it is clearly over-engineering at this point.
+
+We expect you to spend no more than 5 hours on this assignment.
 
 You are allowed to use the technologies of your choice, but if you are looking for inspiration use [ours](https://stackshare.io/inato/marketplace). You are encouraged to make good use of open-source code.
 
 ## Out of scope
 
+- Authentication / authorization
 - Usage of third party tools, like a CI service
 - Performance
 - Security
