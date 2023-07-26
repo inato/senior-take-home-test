@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "packageManager": "yarn@3.6.1",
+  "dependencies": {
+    "fastify": "^4.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "compile": "tsc --noEmit",
+    "start": "ts-node src/index.ts"
+  }
+}
