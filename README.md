@@ -68,7 +68,7 @@ You are allowed to use the technologies of your choice, but if you are looking f
 ## Expectations
 - [ ] You followed the instructions 
 - [ ] We can run & query the Web API
-- [ ] We can install & query the CLI
+- [ ] We can run the CLI
 - [ ] We can run tests
 - [ ] The applications are bug free
 
