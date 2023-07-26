@@ -8,10 +8,7 @@ program
   .description("get the list of clinical trials")
   .requiredOption("-p, --path <type>", "the api path to call")
   .action(async function ({ path }) {
-    fetch(`http://localhost:8080/${path}`)
-      .then((response) => response.text())
-      .then((body) => {
-        console.log(body);
-      });
+    const response = await fetch(`http://localhost:8080/${path}`);
+    console.log(await response.text());
   })
   .parseAsync(process.argv);
