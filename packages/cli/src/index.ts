@@ -1,7 +1,5 @@
 import { program } from "commander";
 
-program.requiredOption("-p, --path <type>", "the api path to call").parse();
-
 program
   .name("inato-cli")
   .command("trials")
