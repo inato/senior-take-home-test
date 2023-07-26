@@ -53,7 +53,7 @@ Topical Calcipotriene Treatment for Breast Cancer Immunoprevention, France
 - [ ] Clone this repository (do **not** fork it)
 - [ ] Implement the features step-by-step (your commit history should be clear to follow)
 - [ ] Document your architecture and design choices along the way
-- [ ] Provide documentation on how we should use your code
+- [ ] Provide instructions on how we can run your code
 - [ ] Publish it on GitHub (or equivalent)
 - [ ] Send us the link and tell us approximately how much time you spent on this assignment
 
