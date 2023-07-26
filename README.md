@@ -65,3 +65,10 @@ To get you started quicker, we setup a typescript monorepo with an API and a CLI
 - Usage of third party tools, like a CI service
 - Performance
 - Security
+
+# Setup instructions
+
+In order to setup and run the existing basic project we provided:
+- install node (see .nvmrc)
+- install and run yarn
+- see the documentation in packages/api and packages/cli
