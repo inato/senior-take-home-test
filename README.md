@@ -57,7 +57,7 @@ This assignment is limited in scope and could be solved by writing all the code 
 
 We expect you to spend no more than 5 hours on this assignment.
 
-You are allowed to use the technologies of your choice, but if you are looking for inspiration use [ours](https://stackshare.io/inato/marketplace). You are encouraged to make good use of open-source code.
+To get you started quicker, we setup a typescript monorepo with an API and a CLI. Feel free to use other languages and technologies you are more comfortable with. You are encouraged to make good use of open-source code.
 
 ## Out of scope
 
@@ -65,3 +65,10 @@ You are allowed to use the technologies of your choice, but if you are looking f
 - Usage of third party tools, like a CI service
 - Performance
 - Security
+
+# Setup instructions
+
+In order to setup and run the existing basic project we provided:
+- install node (see .nvmrc)
+- install and run yarn
+- see the documentation in packages/api and packages/cli
