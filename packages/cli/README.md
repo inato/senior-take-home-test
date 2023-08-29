@@ -4,7 +4,7 @@ This package is the beginning of a CLI built using [commander.js](https://github
 
 You can run it using the following command:
 ```sh
-yarn start -p ping
+yarn start
 ```
 
 If your API server is running and available on port 8080, it will display "pong".
