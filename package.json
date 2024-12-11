@@ -1,7 +1,7 @@
 {
   "name": "senior-take-home-test",
   "devDependencies": {
-    "typescript": "^5.1.6"
+    "typescript": "^5.7.2"
   },
   "scripts": {
     "api": "pnpm --filter api",
