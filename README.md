@@ -81,5 +81,5 @@ To get you started quicker, we setup a typescript monorepo with an API and a CLI
 
 In order to setup and run the existing basic project we provided:
 - install node (see .nvmrc)
-- install and run yarn
+- install and run `pnpm install`
 - see the documentation in packages/api and packages/cli

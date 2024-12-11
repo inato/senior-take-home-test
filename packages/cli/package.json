@@ -1,6 +1,5 @@
 {
   "name": "cli",
-  "packageManager": "yarn@3.6.1",
   "scripts": {
     "compile": "tsc --noEmit",
     "start": "ts-node src/index.ts"
