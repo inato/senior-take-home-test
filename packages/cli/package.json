@@ -1,14 +1,13 @@
 {
   "name": "cli",
-  "packageManager": "yarn@3.6.1",
   "scripts": {
     "compile": "tsc --noEmit",
     "start": "ts-node src/index.ts"
   },
   "devDependencies": {
-    "@types/node": "^20.4.5",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   },
   "dependencies": {
     "commander": "^11.0.0"

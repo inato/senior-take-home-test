@@ -4,5 +4,9 @@ This package is the beginning of an API built using [expressjs](https://expressj
 
 You can run it using the following command:
 ```sh
-yarn start
+pnpm start
+```
+Or, if you are at the root of the repository
+```sh
+pnpm api start
 ```
