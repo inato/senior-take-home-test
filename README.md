@@ -38,7 +38,7 @@ Here is the payload you should obtain when querying ongoing clinical trials for 
 
 ## Step 2: Command-line interface
 
-You will then build a command-line interface that displays the list of ongoing clinical trials for a given country code. It will be deployed on the computers of the customer success team. You already have access to a [file](countries.json) that maps country codes to country names. We will leverage what we have already built in the previous step.
+You will then build a command-line interface that displays the list of ongoing clinical trials for a given country code. It will be deployed on the computers of the customer success team. You already have access to a [file](countries.json) that maps country codes to country names. You will leverage what you have already built in the previous step.
 
 Here is the output you should get for the country code "FR":
 
@@ -62,16 +62,14 @@ Topical Calcipotriene Treatment for Breast Cancer Immunoprevention, France
 To get you started quicker, we setup a typescript monorepo with an API and a CLI.
 
 ### Choose your stack
-We do provide a starting pack with a typescript monorepo, but you are free to use any language or framework you are comfortable with.
-You may choose any architectural and design approach, as long as you can explain your decisions.
-You are encouraged to make good use of open-source code.
+We provide a starter TypeScript monorepo (including a basic API and CLI setup), but you’re free to use any language, framework, or toolset you're comfortable with.
+You may structure the project however you like, monolith or modular, layered or flat, as long as your design decisions are clearly explained.
+Feel free to use open-source libraries to support your solution where it makes sense.
 
 Example stack (not limited to): http server exposing REST endpoint that serves json payloads.
 
-### Request for clarification
-If anything is unclear, please:
-- contact us, we’ll be happy to clarify
-- or make reasonable assumptions and document them
+### Assumptions
+If anything is unclear, you can make reasonable assumptions and document them
 
 ### Use of AI is allowed 
 Feel free to use AI (some of us use it every day, other don’t: it’s really up to you!).
@@ -88,8 +86,9 @@ We expect you to spend no more than 5 hours on this assignment.
 - [ ] The Web API is functional and queryable
 - [ ] The CLI tool runs as expected
 - [ ] Tests are included and runnable
-- [ ] There is a clear separation of concerns -
-  _bonus: You apply Domain-Driven Design (DDD) principles where relevant_
+- [ ] There is a clear separation of concerns
+  - _e.g., keep core logic well isolated_
+  - _bonus if you apply DDD principles like meaningful entities and clear layers_
 - [ ] The application is free of bugs
 
 
