@@ -88,7 +88,7 @@ We expect you to spend no more than 5 hours on this assignment.
 - [ ] Tests are included and runnable
 - [ ] There is a clear separation of concerns
   - _e.g., keep core logic well isolated_
-  - _bonus if you apply DDD principles like meaningful entities and clear layers_
+  - _you can apply DDD patterns if you are familiar with them like meaningful entities and clear layers_
 - [ ] The application is free of bugs
 
 
