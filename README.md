@@ -1,6 +1,7 @@
 # Context
 
-As a senior product engineer in the team, you suggested to build an internal tool for our customer success team. You agreed with the product team on the following milestones.
+As the most senior engineer in your squad, you work in a fast-paced environment where quality software delivery must be balanced with rapidly evolving product needs.
+You suggested to build an internal tool for our customer success team. You agreed with the product team on the following milestones.
 
 ## Step 1: Web API
 
@@ -8,7 +9,7 @@ We first need to be able to query the list of ongoing clinical trials. Two field
 * Sponsor name
 * Country code
 
-We already have access to a third-party API (represented by [this file](trials.json)) listing all clinical trials, and we are going to build a wrapper around it.
+You already have access to a third-party API (mocked and represented by [this file](trials.json)) listing all clinical trials, and you are going to build a wrapper around it.
 
 A trial is _ongoing_ if:
 
@@ -35,11 +36,9 @@ Here is the payload you should obtain when querying ongoing clinical trials for 
 ]
 ```
 
-Example stack: http server exposing REST endpoint that serves json payloads.
-
 ## Step 2: Command-line interface
 
-We will then build a command-line interface that displays the list of ongoing clinical trials for a given country code. It will be deployed on the computers of the customer success team. We already have access to a [file](countries.json) that maps country codes to country names. We will leverage what we have already built in the previous step.
+You will then build a command-line interface that displays the list of ongoing clinical trials for a given country code. It will be deployed on the computers of the customer success team. You already have access to a [file](countries.json) that maps country codes to country names. We will leverage what we have already built in the previous step.
 
 Here is the output you should get for the country code "FR":
 
@@ -52,23 +51,47 @@ Topical Calcipotriene Treatment for Breast Cancer Immunoprevention, France
 
 - [ ] Clone this repository (do **not** fork it)
 - [ ] Implement the features step-by-step (your commit history should be clear to follow)
-- [ ] Document your architecture and design choices along the way
-- [ ] Provide instructions on how we can run your code
+- [ ] Document & explain your architecture and design choices along the way
+- [ ] Provide clear instructions on how we can run your code
 - [ ] Publish it on GitHub (or equivalent)
-- [ ] Send us the link and tell us approximately how much time you spent on this assignment
+- [ ] Send us the link, along with an estimate of how much time you spent on this assignment
 
 ## Guidelines
 
+### Starting pack
+To get you started quicker, we setup a typescript monorepo with an API and a CLI.
+
+### Choose your stack
+We do provide a starting pack with a typescript monorepo, but you are free to use any language or framework you are comfortable with.
+You may choose any architectural and design approach, as long as you can explain your decisions.
+You are encouraged to make good use of open-source code.
+
+Example stack (not limited to): http server exposing REST endpoint that serves json payloads.
+
+### Request for clarification
+If anything is unclear, please:
+- contact us, we’ll be happy to clarify
+- or make reasonable assumptions and document them
+
+### Use of AI is allowed 
+Feel free to use AI (some of us use it every day, other don’t: it’s really up to you!).
+Please include a short note on how and to what extent it was used.
+
+### Time management
+Usually, this assignment is completed within 3-4 hours.
 We expect you to spend no more than 5 hours on this assignment.
 
-To get you started quicker, we setup a typescript monorepo with an API and a CLI. Feel free to use other languages and technologies you are more comfortable with. You are encouraged to make good use of open-source code.
 
 ## Expectations
 - [ ] You followed the instructions 
-- [ ] We can run & query the Web API
-- [ ] We can run the CLI
-- [ ] We can run tests
-- [ ] The applications are bug free
+- [ ] Your architecture and design choices are clearly documented
+- [ ] The Web API is functional and queryable
+- [ ] The CLI tool runs as expected
+- [ ] Tests are included and runnable
+- [ ] There is a clear separation of concerns -
+  _bonus: You apply Domain-Driven Design (DDD) principles where relevant_
+- [ ] The application is free of bugs
+
 
 ## Out of scope
 
@@ -82,4 +105,8 @@ To get you started quicker, we setup a typescript monorepo with an API and a CLI
 In order to setup and run the existing basic project we provided:
 - install node (see .nvmrc)
 - install and run `pnpm install`
-- see the documentation in packages/api and packages/cli
+- Refer to the README files in the `packages/api` and `packages/cli` directories for additional details
+
+# Final Thoughts
+Let us know if you have any questions or blockers. We're evaluating your reasoning and clarity as much as your code. Explain your decisions and trade-offs like you would in a real-world setting.
+
